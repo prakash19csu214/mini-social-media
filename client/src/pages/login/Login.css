@@ -1,0 +1,94 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.registration-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.registration-form,
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration-input {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registration-button,
+.login-button {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-button {
+  background-color: #42b72a;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.registration-button:hover {
+  background-color: #318023;
+}
+
+.login-button {
+  background-color: #1775ee;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: #1259b0;
+}
+
+.login-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-prompt {
+  font-size: 16px;
+  color: #555;
+}
+
+.registerLoginButton {
+  width: 60%;
+  align-self: center;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #42b72a;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.registerLoginButton:hover {
+  background-color: #1259b0;
+  opacity: 0.9;
+}
+
